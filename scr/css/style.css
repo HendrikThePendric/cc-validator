@@ -1,14 +1,16 @@
 #cc-valid {
     padding: 2px 6px
 }
-.glyphicon {
+#cc-valid .glyphicon-ok-circle {
     font-size: 26px;
+    color: #ccc;
+    opacity: 0.4;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
-#cc-valid .glyphicon-ban-circle,
 #cc-valid.valid .glyphicon-ok-circle {
-    display: inline-block;
-}
-#cc-valid .glyphicon-ok-circle,
-#cc-valid.valid .glyphicon-ban-circle {
-    display: none;
+    color: #32e105;
+    opacity: 1;
 }
